@@ -25,15 +25,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPage(),
-      routes: {
+      //home: FirstPage(),
+ /*     routes: {
         '/first_page': (context) => FirstPage(),
         '/second_page': (context) => SecondPage(),
         '/home': (context) => HomePage(),
         '/profile': (context) => ProfilePage(),
         '/setting': (context) => SettingPage()
       },
-      /*     home: Scaffold(
+*/
+         home: Scaffold(
         appBar: AppBar(
           title: Text('My AppBar'),
           backgroundColor: Colors.pink[400],
@@ -137,7 +138,7 @@ class MyApp extends StatelessWidget {
         ),
 */
       ),
-*/
+
     );
   }
 }
